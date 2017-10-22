@@ -10,3 +10,8 @@ In this code, I have performed some Analysis on web log files. Also, I have visu
 3. BayesianKnowledgeTracing:
 In this code, I have implemented the Bayesian Knowledge Tracing model to calculate probability that a student already knows a skill/knowledge component(KC) before solving the question to which that skill is relevant.
 I have also calculated the probability that student will perform a correct action on the question by using the correct performance equation
+4. In this Code, classification algorithm is implemented on the Dataset. Before classification, data is randomly balanced.
+   Classification algorithms predict whether a student is ONTASK or OFFTASK. Which is done in two ways:
+      o By splitting the data in 70/30 train-test split
+      o By using 10-fold cross-validation
+   Performance Evaluation is also performed to compare the results of all algorithms
